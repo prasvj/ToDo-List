@@ -1,0 +1,73 @@
+.row {
+  background: #f8f9fa;
+  margin-top: 20px;
+}
+
+.col { 
+  padding: 10px;  
+  margin:0px 5px;
+  min-height:450px;
+      border-radius: 3px;
+}
+
+.container{
+  margin-right:7px;
+  margin-left:7px;
+}
+
+.editSpan{
+      font-size: 11px;
+    float: right;
+    cursor:pointer;
+}
+
+#toDoList{
+  background-color:#2654DC;
+}
+
+#DoingList{
+  background-color:#E5EE13;
+}
+
+#DoneList{
+  border:2px solid #000;  
+  background-color:#fff;
+}
+
+.taskDiv{
+  height: auto;
+  margin: 5px;
+  padding:3px 5px;
+  color:#000;
+  background-color:#fff;
+  font-size:12px;
+  line-height: 17px;
+  
+}
+
+#DoneList .taskDiv{
+      border-radius: 3px;
+    border: 1px solid #000;
+}
+
+.taskBtn{
+  border-radius: 2px;
+  margin: 0px 3px;
+  background-color: #fff;  
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.taskDesc{
+      font-size: 12px;
+    font-weight: normal;
+}
+
+#deleteTask{
+  color:#D93826;
+}
+
+#addTask{
+  font-size: 16px;
+  margin-top: -22px;
+}

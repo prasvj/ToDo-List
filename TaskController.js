@@ -31,7 +31,7 @@ taskDiv.id =taskString;
 document.getElementById('toDoList').appendChild(taskDiv);
 document.getElementById(taskString).classList.add('taskDiv');
 
-var taskHeader = document.createElement('h6')
+var taskHeader = document.createElement('h4')
 taskHeader.innerHTML = taskList[addCounter].name;
 var desc = document.createElement('p');
 desc.innerHTML=taskList[addCounter].priority + " : " + taskList[addCounter].date;

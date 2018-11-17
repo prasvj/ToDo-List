@@ -23,16 +23,16 @@
 }
 
 #toDoList{
-  background-color:#2654DC;
+  background-color:#d3d4d3;
 }
 
 #DoingList{
-  background-color:#E5EE13;
+  background-color:#d3d4d3;
 }
 
 #DoneList{
-  border:2px solid #000;  
-  background-color:#fff;
+  border:2px solid #d3d4d3;  
+  background-color:#d3d4d3;
       min-height: 450px;
 }
 
